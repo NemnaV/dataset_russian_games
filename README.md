@@ -41,13 +41,13 @@ A data-journalism article was also developed based on this dataset, highlighting
 
 ## License & Terms
 This dataset is released under the [MIT License](LICENSE).  
-Please credit **Valeria Nemna** as the original author when using this dataset in any publication or derivative work.
+Please credit **Valeria Nemna** (NemnaV) as the original author when using this dataset in any publication or derivative work.
 
 This dataset is compiled from publicly available sources and is intended strictly for research and educational use. Always check the terms of service for IMDB and Steam when using their data.
 
 
 ## Author
 
-This dataset was created by **Valeria Nemna** as part of a diploma research project.
+This dataset was created by **Valeria Nemna** (NemnaV) as part of a diploma research project.
 
 ---
