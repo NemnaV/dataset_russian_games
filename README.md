@@ -18,6 +18,16 @@ This repository contains a structured dataset from Steam about Russian video gam
 
 Each file represents a different aspect of the dataset. The main dataset is `info_steam_main.csv`, which includes core game data. Other files such as `categories.csv`, `genres.csv`, and `tags.csv` can be linked using shared identifiers (e.g., `id_steam`).
 
+## Article and Research Background
+
+This dataset was created as part of a master's's thesis (ВКР) at the Higher School of Economics (HSE).  
+The research explored the characteristics of Russian video games on IMDB using Steam data.
+
+A data-journalism article was also developed based on this dataset, highlighting trends, genres, and user perceptions of Russian games.
+
+📄 [Read the article](./article.md) (in Russian)  
+🎓 [View the diploma project on HSE portal](https://www.hse.ru/edu/vkr/?supervisor=%D0%9D%D0%BE%D0%B2%D0%B8%D1%87%D0%BA%D0%BE%D0%B2%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B5%D0%B9%20%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80%D0%BE%D0%B2%D0%B8%D1%87&author=%D0%9D%D0%B5%D0%BC%D0%BD%D0%B0%20%D0%92%D0%B0%D0%BB%D0%B5%D1%80%D0%B8%D1%8F%20%D0%90%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80%D0%BE%D0%B2%D0%BD%D0%B0)
+
 ## Usage
 
 1. Download the CSV files from this repository.
@@ -38,6 +48,6 @@ This dataset is compiled from publicly available sources and is intended strictl
 
 ## Author
 
-This dataset was created as part of a research project. For more information, feel free to open an issue or reach out.
+This dataset was created by **Valeria Nemna** as part of a diploma research project.
 
 ---
