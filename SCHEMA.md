@@ -81,10 +81,12 @@ This document describes the structure of each CSV file included in the Russian G
 
 ## `genres.csv`
 
-| Column     | Description                    |
-|------------|--------------------------------|
-| `id_steam` | Steam game ID                  |
-| `genre`    | Genre assigned to the game     |
+| Column      | Description                                        |
+|-------------|----------------------------------------------------|
+| `id_steam`  | Steam game ID                                      |
+| `name_imdb` | Game name in IMDB                                  |
+| `name_steam`| Game name on Steam                                 |
+| `...`       | Binary columns for each genre (e.g. RPG, Strategy) |
 
 ---
 
