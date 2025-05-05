@@ -2,6 +2,12 @@
 
 This repository contains a structured dataset from Steam about Russian video games listed in the IMDB video game listing.
 
+## 📅 Dataset Version & Updates
+
+**Version:** 1.0.0  
+**Last updated:** May 2025  
+**Update frequency:** Manually updated once a year
+
 ## Dataset Contents
 
 | File | Description |
