@@ -15,6 +15,7 @@ This document describes the structure of each CSV file included in the Russian G
 ---
 
 ## `info_steam_rare.csv`
+The source is Steam API and SteamSpy
 
 | Column                      | Description                                                        |
 |-----------------------------|--------------------------------------------------------------------|
@@ -113,12 +114,16 @@ This document describes the structure of each CSV file included in the Russian G
 ---
 
 ## `estimates.csv`
-id_steam	name_imdb	name_steam	developers	positive	negative	estimated_owners_min	estimated_owners_max
+The source is SteamSpy only
+							
 | Column     | Description                                 |
 |------------|---------------------------------------------|
-| `id_steam` | Steam game ID                               |
-| `positive` | Number of positive user reviews             |
-| `negative` | Number of negative user reviews             |
-| `score`    | Overall score or rating (if available)      |
+| `id_steam` 		| Steam game ID                               |
+| `name_imdb` 		| Game title in IMDB            |
+| `name_steam`		 | Game title on Steam            |
+| `positive`    	| Number of positive reviews   |
+| `negative`  		  | Number of negative reviews     |
+| `estimated_owners_min`    | Minimum estimated number of owners    |
+| `estimated_owners_max`    | Maximum estimated number of owners      |
 
 ---
