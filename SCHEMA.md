@@ -52,9 +52,6 @@ The source is Steam API and SteamSpy
 | `movies`                    | List of URLs to trailers or gameplay videos                        |
 | `user_score`                | user_score = positive / (positive + negative)                      |
 | `score_rank`                | Game’s rank based on user reviews, calculated by SteamSpy (not an official Steam metric)|
-| `positive`                  | Positive review counts                                             |
-| `negative`                  | Negative review counts                                             |
-| `estimated_owners`          | SteamSpy-style owner estimates                                     |
 | `average_playtime_forever`  | Average total playtime per user (in minutes), across all time      |
 | `average_playtime_2weeks`   | Average playtime per user (in minutes) over the past 2 weeks       |
 | `median_playtime_forever`   | Median total playtime per user (in minutes), across all time       |
