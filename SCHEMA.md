@@ -92,24 +92,28 @@ This document describes the structure of each CSV file included in the Russian G
 
 ## `tags.csv`
 
-| Column     | Description                    |
-|------------|--------------------------------|
-| `id_steam` | Steam game ID                  |
-| `tag`      | Tag from user-generated list   |
+| Column      | Description                                               |
+|-------------|-----------------------------------------------------------|
+| `id_steam`  | Steam game ID                                             |
+| `name_imdb` | Game name in IMDB                                         |
+| `name_steam`| Game name on Steam                                        |
+| `...`       | Binary columns for each Steam tag (1 if tagged, 0 if not) |
 
 ---
 
 ## `categories.csv`
 
-| Column     | Description                         |
-|------------|-------------------------------------|
-| `id_steam` | Steam game ID                       |
-| `category` | Steam category (e.g., Single-player, VR support) |
+| Column      | Description                                                                  3     |
+|-------------|-----------------------------------------------------------------------------------|
+| `id_steam`  | Steam game ID                                                                     |
+| `name_imdb` | Game name in IMDB                                                                 |
+| `name_steam`| Game name on Steam                                                                |
+| `...`       | Binary columns for Steam categories (e.g. Single-player, Steam Cloud, VR Support) |
 
 ---
 
 ## `estimates.csv`
-
+id_steam	name_imdb	name_steam	developers	positive	negative	estimated_owners_min	estimated_owners_max
 | Column     | Description                                 |
 |------------|---------------------------------------------|
 | `id_steam` | Steam game ID                               |
