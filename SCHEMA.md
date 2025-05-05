@@ -50,16 +50,16 @@ This document describes the structure of each CSV file included in the Russian G
 | `screenshots`               | List of URLs to game screenshots                                   |
 | `movies`                    | List of URLs to trailers or gameplay videos                        |
 | `user_score`                | user_score = positive / (positive + negative)                      |
-| `score_rank`                | Number of reviews (user votes) on IMDB                             |
-| `positive`                  | Number of reviews (user votes) on IMDB                             |
-| `negative`                  | Number of reviews (user votes) on IMDB                             |
-| `estimated_owners`          | Number of reviews (user votes) on IMDB                             |
-| `average_playtime_forever`  | Number of reviews (user votes) on IMDB                             |
-| `average_playtime_2weeks`   | Number of reviews (user votes) on IMDB                             |
-| `median_playtime_forever`   | Number of reviews (user votes) on IMDB                             |
-| `median_playtime_2weeks`    | Number of reviews (user votes) on IMDB                             |
-| `discount`                  | Number of reviews (user votes) on IMDB                             |
-| `peak_ccu`                  | Number of reviews (user votes) on IMDB                             |
+| `score_rank`                | Game’s rank based on user reviews, calculated by SteamSpy (not an official Steam metric)|
+| `positive`                  | Positive review counts                                             |
+| `negative`                  | Negative review counts                                             |
+| `estimated_owners`          | SteamSpy-style owner estimates                                     |
+| `average_playtime_forever`  | Average total playtime per user (in minutes), across all time      |
+| `average_playtime_2weeks`   | Average playtime per user (in minutes) over the past 2 weeks       |
+| `median_playtime_forever`   | Median total playtime per user (in minutes), across all time       |
+| `median_playtime_2weeks`    | Median playtime per user (in minutes) over the past 2 weeks        |
+| `discount`                  | Current discount percentage (if on sale)                           |
+| `peak_ccu`                  | Peak concurrent user count (Steam stat)                            |
 | `tags`                      | These reflect how users perceive the game (assigned by players)    |
 															
 ---
